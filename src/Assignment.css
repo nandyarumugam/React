@@ -1,0 +1,74 @@
+/* Fullscreen layout with a soft gradient */
+.full-screen {
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Elegant gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  padding: 20px;
+}
+
+/* Card-style container */
+.assignment-container.card {
+  background-color: #ffffff;
+  padding: 50px 70px;
+  border-radius: 20px; /* Softer curves for a refined design */
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15); /* Enhanced shadow for a modern floating effect */
+  text-align: center;
+  width: 100%;
+  max-width: 650px;
+}
+
+/* Headings */
+.title {
+  font-size: 40px; /* Bigger emphasis */
+  color: #1d3557;
+  margin-bottom: 18px;
+  font-weight: 800;
+}
+
+.subtitle {
+  font-size: 22px;
+  color: #457b9d;
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-size: 26px;
+  color: #e63946;
+  margin-bottom: 26px;
+  font-weight: 600;
+}
+
+/* Vertical button list */
+.assignment-buttons-vertical {
+  display: flex;
+  gap: 1rem; 
+  flex-wrap: wrap; 
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+/* Buttons with vibrant gradient effect */
+.assignment-buttons-vertical button {
+  width: 260px;
+  padding: 16px 24px;
+  background: linear-gradient(to right, #f77f00, #ffba08); /* Dynamic color pop */
+  color: white;
+  border: none;
+  border-radius: 24px; /* Extra rounded corners for a sleek look */
+  font-size: 19px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.assignment-buttons-vertical button:hover {
+  background: linear-gradient(to right, #ffba08, #f77f00);
+  transform: scale(1.05); /* Subtle scaling effect */
+  box-shadow: 0 12px 24px rgba(247, 127, 0, 0.4);
+}
